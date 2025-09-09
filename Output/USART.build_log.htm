@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 8618507691833, 11, LIC=SDA0P-MH674-HLDCL-0CFK1-5NI0L-MHACZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  F:\keilMDK\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+F:\keilMDK\F4PROJECT\EWO3.5 Êý¾ÝÉÏ´«²âÊÔ°æ±¾3.0¸Ä½ø1.5\EWO3.5 Êý¾ÝÉÏ´«²âÊÔ°æ±¾3.0¸Ä½ø1.3\EWO3.5 Êý¾ÝÉÏ´«²âÊÔ°æ±¾2.0\EWO3.5 ²âÊÔ°æ±¾1.0\EWO3.5 ²âÊÔ°æ±¾\EWO3.5 3-29-2(1)\EWO3.5\Project\RVMDK£¨uv5£©\EWO3.uvprojx
+Project File Date:  09/06/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keilMDK\ARM\ARMCC\Bin'
+Build target 'EWO'
+compiling main.c...
+..\..\User\main.c(304): warning:  #177-D: variable "node"  was declared but never referenced
+      gooser node;
+..\..\User\main.c(306): warning:  #177-D: variable "still_in"  was declared but never referenced
+      u8 still_in = 0;
+..\..\User\main.c(307): warning:  #177-D: variable "timeout_cnt"  was declared but never referenced
+      u32 timeout_cnt = 0;
+..\..\User\main.c(309): warning:  #550-D: variable "id2_cnt"  was set but never used
+      u8 id2_cnt = 0;   //??????id2?????????
+..\..\User\main.c(310): warning:  #177-D: variable "id_cnt"  was declared but never referenced
+      u8 id_cnt = 0;   //??????id1?????????
+..\..\User\main.c(311): warning:  #550-D: variable "flag_nest"  was set but never used
+      u8 flag_nest = 1; //????????????????????€???????????€???
+..\..\User\main.c(312): warning:  #177-D: variable "flag_show"  was declared but never referenced
+      u8 flag_show = 1;
+..\..\User\main.c(667): warning:  #177-D: variable "timeout_cnt"  was declared but never referenced
+      u32 timeout_cnt; //???????????????
+..\..\User\main.c(1145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                                  sprintf(temp.id1, "%02X%02X%02X%02X", temp.id1[8], temp.id1[9], temp.id1[10], temp.id1[11]);
+..\..\User\main.c(1146): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                                  sprintf(temp.id2, "%02X%02X%02X%02X", temp.id2[8], temp.id2[9], temp.id2[10], temp.id2[11]);
+..\..\User\main.c(844): warning:  #550-D: variable "LoraTask_Livetime"  was set but never used
+      struct tm LoraTask_Livetime;    //?????€???????€?????????????
+..\..\User\main.c(78): warning:  #177-D: variable "egg_empty"  was declared but never referenced
+  static struct egg egg_temp, egg_empty; //egg_temp???????????????????????????,egg_empty?????????????????????
+..\..\User\main.c: 12 warnings, 0 errors
+linking...
+Program Size: Code=63742 RO-data=2882 RW-data=468 ZI-data=69396  
+FromELF: creating hex file...
+"..\..\Output\USART.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil::STM32F4xx_DFP@2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  F:/keilMDK/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

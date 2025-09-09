@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "bsp_hx711.h": "c",
+        "bsp_stop_key.h": "c",
+        "main.h": "c",
+        "bsp_spi_flash.h": "c",
+        "lvgl_apps.h": "c",
+        "stm32f4xx.h": "c",
+        "myarray.h": "c",
+        "rfid_r200.h": "c",
+        "bsp_usart.h": "c",
+        "memory": "c",
+        "random": "c",
+        "lvgl.h": "c"
+    }
+}

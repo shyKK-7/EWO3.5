@@ -1,0 +1,9 @@
+..\..\output\ef_env_legacy_wl.o: ..\..\System\easyflash\src\ef_env_legacy_wl.c
+..\..\output\ef_env_legacy_wl.o: ..\..\System\easyflash\inc\easyflash.h
+..\..\output\ef_env_legacy_wl.o: F:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\ef_env_legacy_wl.o: F:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+..\..\output\ef_env_legacy_wl.o: F:\keilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+..\..\output\ef_env_legacy_wl.o: ..\..\System\easyflash\inc\ef_cfg.h
+..\..\output\ef_env_legacy_wl.o: ..\..\System\easyflash\inc\ef_def.h
+..\..\output\ef_env_legacy_wl.o: F:\keilMDK\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\ef_env_legacy_wl.o: F:\keilMDK\ARM\ARMCC\Bin\..\include\stdlib.h
